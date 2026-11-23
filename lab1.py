@@ -12,8 +12,9 @@ def f(x):
         - 8 / (x + 15)
     )
 
-x = float(input("Введите x: "))
+x = float(input("Введіть x: "))
 try:
     print(f"f({x}) = {f(x)}")
 except ZeroDivisionError:
-    print("x попадает в точку разрыва (x = -15, -4 или 10)")
+
+    print("x наближається в точку розриву (x = -15, -4 або 10)")
